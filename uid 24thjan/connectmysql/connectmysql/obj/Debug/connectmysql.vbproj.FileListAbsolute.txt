@@ -1,0 +1,10 @@
+C:\Users\student\Documents\New folder\connectmysql\connectmysql\bin\Debug\connectmysql.exe.config
+C:\Users\student\Documents\New folder\connectmysql\connectmysql\bin\Debug\connectmysql.exe
+C:\Users\student\Documents\New folder\connectmysql\connectmysql\bin\Debug\connectmysql.pdb
+C:\Users\student\Documents\New folder\connectmysql\connectmysql\bin\Debug\connectmysql.xml
+C:\Users\student\Documents\New folder\connectmysql\connectmysql\obj\Debug\connectmysql.Form1.resources
+C:\Users\student\Documents\New folder\connectmysql\connectmysql\obj\Debug\connectmysql.Resources.resources
+C:\Users\student\Documents\New folder\connectmysql\connectmysql\obj\Debug\connectmysql.vbproj.GenerateResource.Cache
+C:\Users\student\Documents\New folder\connectmysql\connectmysql\obj\Debug\connectmysql.exe
+C:\Users\student\Documents\New folder\connectmysql\connectmysql\obj\Debug\connectmysql.xml
+C:\Users\student\Documents\New folder\connectmysql\connectmysql\obj\Debug\connectmysql.pdb
