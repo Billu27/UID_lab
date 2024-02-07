@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\22113 UID\LMS_Sani\LMS_Sani\bin\Debug\LMS_Sani.exe.config
+C:\Users\admin\Desktop\22113 UID\LMS_Sani\LMS_Sani\bin\Debug\LMS_Sani.exe
+C:\Users\admin\Desktop\22113 UID\LMS_Sani\LMS_Sani\bin\Debug\LMS_Sani.pdb
+C:\Users\admin\Desktop\22113 UID\LMS_Sani\LMS_Sani\bin\Debug\LMS_Sani.xml
+C:\Users\admin\Desktop\22113 UID\LMS_Sani\LMS_Sani\obj\Debug\LMS_Sani.Form1.resources
+C:\Users\admin\Desktop\22113 UID\LMS_Sani\LMS_Sani\obj\Debug\LMS_Sani.Resources.resources
+C:\Users\admin\Desktop\22113 UID\LMS_Sani\LMS_Sani\obj\Debug\LMS_Sani.vbproj.GenerateResource.Cache
+C:\Users\admin\Desktop\22113 UID\LMS_Sani\LMS_Sani\obj\Debug\LMS_Sani.exe
+C:\Users\admin\Desktop\22113 UID\LMS_Sani\LMS_Sani\obj\Debug\LMS_Sani.xml
+C:\Users\admin\Desktop\22113 UID\LMS_Sani\LMS_Sani\obj\Debug\LMS_Sani.pdb
