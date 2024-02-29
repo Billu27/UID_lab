@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>input types form</title>
+    <style>
+      input{
+        border-radius: 7px;
+      }
+
+      div{
+        background-color:bisque;
+      }
+
+      button{
+        background-color:black;
+        color:aliceblue;
+        width: 90px;
+        height :30px
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Music school registration form</h1>
+    <p style="font-size: 20px;">Register to our music school frombelow</p>
+    <div id="outer-div">
+      <fieldset>
+        <form action="ex1.html" method="POST">
+         
+          <!--name inputs-->
+          Name* <br><input type="text" name="fname" placeholder="First name"> &nbsp;&nbsp;&nbsp;
+          <input type="text" name="Lname" placeholder="Last name"><br><br>
+          
+          <!--Email input-->
+          Email* <br><input type="email" name="mail" placeholder="yourEmail@gmail.com" required><br><br>
+
+          <!--Birthdayte-->
+          Birth Date* : <br><input type="date" placeholder="MM-DD-YYYY" required><br><br>
+
+          <!--choice of instrument  drop down-->
+          Choice of instrument : <select name="drop-down">
+            <br><br><option value="123">Guitar</option>
+            <option value="234">Ukulele</option>
+            <option value="2345">HArmonium</option>
+            <option value="24546">tabla</option>
+          </select><br><br>
+
+          <!--checkbox-->
+          <label>Pick days for classes*</label><br>
+          Monday <input type="checkbox" name="days">&nbsp;&nbsp;&nbsp;&nbsp;
+          Tuesday <input type="checkbox" name="days">&nbsp;&nbsp;&nbsp;&nbsp;
+          wednesday <input type="checkbox" name="days">&nbsp;&nbsp;&nbsp;&nbsp;
+          Thursday <input type="checkbox" name="days">&nbsp;&nbsp;&nbsp;&nbsp;
+          Friday <input type="checkbox" name="days">&nbsp;&nbsp;&nbsp;&nbsp;
+          Saturday <input type="checkbox" name="days">&nbsp;&nbsp;&nbsp;&nbsp;
+          Sunday <input type="checkbox" name="days">&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+
+          <!--time-->
+          start date <input type="date">&nbsp;&nbsp;&nbsp;
+          start time <input type="time"><br><br>
+
+          <!--comments-->
+          Comments <br><textarea name="textarea" cols="45" rows="2">Description</textarea><br><br>
+
+          <button>SUBMIT</button>
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>HTML form tutorial eg1</title>
+        <style>
+            input{
+                border-radius: 20px;
+                font-style: oblique;
+            }
+
+            legend{
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            fieldset{
+                background-color: antiquewhite;
+                width: 300px;
+                border-radius: 20px;
+                border-width: 9px;
+                border-style :inset;
+                border-color: black;
+                border-top-color: rgb(0, 47, 255);
+                padding-right: 20px;
+                justify-content: center;
+            }
+
+            #div-1{
+              background-color: pink;
+              border-radius: 20px;
+              padding-right: 40px;
+              justify-content: center;
+              height: auto;
+             
+            }
+
+            #div-2{
+              padding-top: 20px;
+              background-color: antiquewhite;
+              border-radius: 20px;
+              padding-left: 30px;
+              padding-right: 30px;
+              justify-content: center;
+              height: auto;
+             
+            }
+
+            form{
+              font-size: 20px;
+              font-weight: bold;
+            }
+
+            #outer{
+              display: flex;
+              width:590px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h1>HTML form tutorial eg1</h1>
+        <div id="outer">
+
+          <div id="div-1">
+            <fieldset>
+              <legend>forms</legend>
+              <form action="ex1.html" method="POST">
+                  Name : <input type="text" name="name" value="" size="25" maxlength="50"><br>
+                  <br>Email : <input type="email" name="email" value="" size="25" maxlength="50"><br>
+                  <br>Password : <input type="hidden" name="hideen-pass" value="hide"><br>
+                  <!--radio buttons should same name-->
+                  <br>I have a car : <input type="checkbox" name="chk-bx" value="CAR" > <br>
+                  I have a bike : <input type="checkbox" name="chk-bx" value="bike" > <br>
+                  I have a airplane : <input type="checkbox" name="chk-bx" value="airplane" > <br>
+                 
+                  <br><label for="question" style="color: darkblue">Which is your favourite fruit?</label><br>
+                  I have a Apple : <input type="radio" name="fav-frut" value="apple" > <br>
+                  I have a Banana : <input type="radio" name="fav-frut" value="banana" > <br>
+                  I have a Mango : <input type="radio" name="fav-frut" value="mangoa" > <br>
+                  
+                  <br><input type="submit" name="submit" value="sign me up!" style="font-weight:bold; ">
+              </form>
+          </fieldset>
+          </div>
+  
+          <div id="div-2">
+            <fieldset style="background-color: lightblue;">
+  <legend>form 2</legend>
+              <form action="ex1.html" method="get">
+              <br><input type="submit" name="submit" value="sign me up!" style="font-weight:bold; ">
+              <input type="submit" name="reset" value="reset">
+              <input type="button" name="button" value="click on me" onclick="alert('hi');">
+              <br><input type="file" name="file" value="upload here!">
+              <input type="image" name="img" src="button.png" height="30" width="30">
+            </form>
+            </fieldset>
+          </div>
+        </div>
+
+        <div id="outer-div-2">
+
+        </div>
+        
+        
+    </body>
+</html>
