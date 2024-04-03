@@ -1,0 +1,10 @@
+C:\Users\student\AppData\Local\Temporary Projects\bakerySaniya\bin\Debug\bakerySaniya.exe.config
+C:\Users\student\AppData\Local\Temporary Projects\bakerySaniya\bin\Debug\bakerySaniya.exe
+C:\Users\student\AppData\Local\Temporary Projects\bakerySaniya\bin\Debug\bakerySaniya.pdb
+C:\Users\student\AppData\Local\Temporary Projects\bakerySaniya\bin\Debug\bakerySaniya.xml
+C:\Users\student\AppData\Local\Temporary Projects\bakerySaniya\obj\Debug\bakerySaniya.Form1.resources
+C:\Users\student\AppData\Local\Temporary Projects\bakerySaniya\obj\Debug\bakerySaniya.Resources.resources
+C:\Users\student\AppData\Local\Temporary Projects\bakerySaniya\obj\Debug\bakerySaniya.vbproj.GenerateResource.Cache
+C:\Users\student\AppData\Local\Temporary Projects\bakerySaniya\obj\Debug\bakerySaniya.exe
+C:\Users\student\AppData\Local\Temporary Projects\bakerySaniya\obj\Debug\bakerySaniya.xml
+C:\Users\student\AppData\Local\Temporary Projects\bakerySaniya\obj\Debug\bakerySaniya.pdb
