@@ -1,0 +1,47 @@
+#paras{
+    font-size: 30px;
+}
+
+#paraLeft{
+    text-align: left;
+}
+
+#paraRight{
+    text-align: right;
+}
+
+.chatRight{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(126, 171, 255);
+    margin-left: auto;
+}
+
+.chatLeft{
+    text-align: left;
+    display: flex;
+    justify-content: left;
+  
+    background-color: rgb(255, 167, 36);
+
+    margin-right: auto;
+}
+
+.chat{
+    border-radius: 20px;
+    padding : 6px;
+    font-size: 25px;
+    width: 250px;
+}
+
+button{
+    padding : 10px 10px;
+    background-color: black;
+    color : white;
+    border-radius: 20px;
+}
+
+input{
+    padding: 6px;
+}

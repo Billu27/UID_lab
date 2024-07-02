@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>person i admire</title>
+    <style>
+        #admire-img{
+            width : 200px;
+            border-radius: 20px;
+            margin-left: 20px;
+        }
+
+        .parent-container{
+            
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="font-family: cursive;">The Admiree</h1>
+    <a href="https://www.youtube.com/results?search_query=trs" target="_blank">
+    <img id="admire-img" src="admire.jpg" alt="The Ranveer Show">
+    </a>
+    <br/>
+
+    <div class="parent-container">
+        <p id="para1" class="paras"> Ranveer Allahbadia (born 1 June 1993) better known as BeerBiceps 
+            is an Indian YouTuber. Known for his Podcasts on Spotify, 
+            he is also recognised for his YouTube videos covering topics such as fashion, 
+            finance, fitness, motivation, and self-development
+        </p> 
+        <button id="btn-1" onclick="changeColor()">Click here</button>
+    </div>
+    <br>
+    
+    <div>
+        <label for="newChat">Add new chat </label><br>
+        <input id="Rchat" type="text" name="newChat">
+        <button onclick="addNewChatRight()">Add to right</button>
+        <br><br>
+        <button onclick="addNewChat()">Add to Left</button>
+        <input id="Lchat" type="text" name="newChat">
+        
+    </div>
+    
+    <!-- <div class="chatRight chat">
+        Sender
+    </div>
+
+    <div class="chatLeft chat">
+        Rar
+    </div> -->
+   
+
+    <script src="index.js"></script>
+</body>
+</html>
