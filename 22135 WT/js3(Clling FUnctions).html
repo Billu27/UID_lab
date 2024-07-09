@@ -1,0 +1,46 @@
+<DOCTYPE html>
+<html>
+ <head>
+	<style>
+		label{
+		  font-size : 20px;
+		}
+		input{
+		  font-size : 25px;
+		}
+		
+		button{
+		  padding : 10px;
+		  color : white;
+		  background-color : red;
+		  border-radius : 30px;
+		  margin-top : 5px;
+		}
+		
+		#greet{
+			font-size : 40px;
+			font-family : cursive;
+		}
+	</style>
+ </head>
+ 
+ <body>
+ <h2>Calling Functions in Javascript<h2>
+	<label id="var1">Enter your name here : </label>
+	<input type="text" id="name">
+	<br/>
+	<button onClick="clickMe()">Greet Me!</button>
+	
+	<button onClick="alert('Hey user')">Alert Me!</button>
+	<h1 id="greet"></h1>
+	
+ <script>
+	function clickMe(){
+	  const nam = document.getElementById("name").value;
+	  const greet = document.getElementById("greet");
+	  greet.textContent = `Welcome here ${nam}`;
+	}
+ </script>
+  
+ </body>
+</html>

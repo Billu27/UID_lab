@@ -1,0 +1,45 @@
+<DOCTYPE html>
+<html>
+ <head>
+ 
+ </head>
+ 
+ <body>
+	<label id="var">ENter number of elements : </label>
+	<input type="number" id="var1"/>
+	<br/><br/>
+	<button onClick="calculate()">Calculate</button>
+	<br/><br/>
+	
+	<h1 id="ans"><h1>
+	<h2>write a program in javascript to print the fibonacci series<h2>
+ 
+ <script>
+	var n1=0, n2=1, n3, i, count=10;
+	document.write(n1," ,",n2);
+	
+	for(i = 2; i<count; ++i){
+		n3=n1+n2;
+		document.write(" ,",n3);
+		n1=n2;
+		n2=n3;
+	}
+	
+	function calculate(){
+		const a = document.getElementById("var1").value;
+		const fin = document.getElementById("ans");
+		
+		var n1=0, n2=1, n3,j;
+		fin.textContent = `series : ${n1} , ${n2}`;
+		
+		for(j=2;j<a;++j){
+			n3=n1+n2;
+			fin.textContent += ` ,${n3}`;
+			n1=n2;
+			n2=n3;
+		}
+	}
+ </script>
+  
+ </body>
+</html>
