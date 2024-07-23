@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  button{
+    padding : 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: chartreuse;
+    margin: 10px;
+  }
+  </style>
+</head>
+<body>
+
+  <!-- Change font color using function -->
+
+  <h1 id="textLine">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, totam. <br> 
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero hic in deleniti obcaecati quos, <br>
+    atque quis saepe error, dolores dolorem ullam consectetur quasi sequi eaque neque odit dolor officiis sint at minima. <br>
+    Quae eaque blanditiis nam repellendus adipisci porro voluptates sequi, necessitatibus, quidem possimus sapiente doloribus <br>
+    sit, dignissimos ullam corrupti?
+  </h1>
+
+  <button onclick="textRed('red')">Red Text</button>
+  <button onclick="textRed('green')">Green Text</button>
+  <button onclick="backBlack()">Black Background</button>
+  <button onclick="changeFont()">Font Change</button>
+
+  <script>
+    function textRed(col){
+      let text = document.getElementById("textLine");
+      text.style.color=col;
+    }
+
+    function backBlack(){
+      let text = document.getElementById("textLine");
+      text.style.backgroundColor="rgb(0, 4, 0)";
+    }
+
+    function changeFont(){
+      let text = document.getElementById("textLine");
+      text.style.fontFamily="cursive";
+    }
+  </script>
+</body>
+</html>

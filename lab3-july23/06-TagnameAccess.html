@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <ul>
+    <li>Information systems</li>
+    <li>Value education</li>
+    <li>Interval</li>
+    <li>Web Tech lab</li>
+  </ul>
+
+  <h3 id="result"></h3>
+
+  <button onclick="getlistItems()">click</button>
+
+  <script>
+    function getlistItems(){
+      let list = document.getElementsByTagName("li");
+      //let newList = document.createElement("li");
+      let result = document.getElementById("result");
+      let i;
+
+      for(i = 0; i<list.length; i++){
+        result.textContent+=`\n\n${list[i].innerHTML}`;
+      }
+      
+    }
+  </script>
+</body>
+</html>

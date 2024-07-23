@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple interest Calculator</title>
+</head>
+<body>
+    <h2>Calculate simple interest, pass values as parameters</h2>
+    <button onclick="findSI()">Enter</button>
+
+    <h2 id="prin"></h2>
+    <h2 id="rt"></h2>
+    <h2 id="tim"></h2>
+
+    <h1 id="result"></h1>
+  <script>
+    function findSI(){
+      var principal = Number(prompt("enter principal amount here : "));
+      var rate = Number(prompt("enter rate here : "));
+      var time = Number(prompt("enter number of years here : "));
+
+   document.getElementById("prin").textContent = `principal = ${principal}`;
+   document.getElementById("rt").textContent = `rate = ${rate}`;
+   document.getElementById("tim").textContent = `time = ${time}`;
+
+      let Simple = convert(principal,rate,time);
+      document.getElementById("result").textContent = `Simple interest = ${Simple}`;
+
+    }
+
+    function convert(p,r,t){
+      return ((p*r*t)/100);
+    }
+   
+  </script>
+</body>
+</html>

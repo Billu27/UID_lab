@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .siblings{
+      background-color: rgb(255, 241, 45);
+      padding: 20px;
+      width : 200px;
+      margin : 10px;
+      border-radius: 10px;
+      border : 2px solid rgb(0, 104, 61);
+      font-size: 20px;
+    }
+
+    button{
+      padding : 10px;
+      background-color: deeppink;
+      color : white;
+      border-radius: 10px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="siblings">content </div>
+  <div class="siblings">content </div>
+  <div class="siblings">content </div>
+  <button onclick="changeColor()">Click Me!!</button>
+  <button onclick="AddBox()">Add a TextBox</button><br><br>
+  <button onclick="BoxColChange()">Change textBox color</button>
+
+  <script>
+    function changeColor(){
+      let div = document.getElementsByClassName("siblings");
+      div[0].style.backgroundColor = "rgb(1, 211, 268)";
+      div[1].style.backgroundColor = "rgb(9, 111, 123)";
+      div[2].style.backgroundColor = "rgb(8, 123, 233)";
+    }
+
+    function AddBox(){
+      const box = document.createElement("input");
+      box.id="newTextBox";
+      box.classList.add()
+      box.style.backgroundColor="orange";
+      box.style.margin="10px";
+      box.placeholder="textbox";
+      box.style.fontSize="30px";
+      box.style.borderRadius="20px";
+      box.style.padding="10px";
+      document.body.appendChild(box);
+    }
+
+    function BoxColChange(){
+      let box = document.getElementById("newTextBox");
+      box.style.backgroundColor="blue";
+      box.style.color = "white";
+    }
+  </script>
+</body>
+</html>
