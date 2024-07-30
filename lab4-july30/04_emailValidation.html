@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+</head>
+<body>
+  <form name="myForm" action="success.html" method="post" onsubmit="return validateEmail()">
+   
+    <label for="mail">Email : </label>
+    <input type="text" name="email" id="email"><br/>
+    <button onclick="validateEmail()">CLICKC</button>
+
+  </form>
+  <script>
+    function validateEmail(){
+      // input data must contain an @sign and atleast one dot (.)
+      // @ must not be the first character of the email address
+      // the last dot must be present after the @ sign
+      // minimum 2 characters before the end 
+
+      var emailInput = document.myForm.email.value;
+      var atPos = emailInput.indexOf("@");
+      var dotPos = emailInput.lastIndexOf(".");
+
+      if(atPos<1 || dotPos<atPos+2 || dotPos+2<=emailInput.length){
+        return false;
+        alert("not a valid email address");
+      }
+    }
+  </script>
+</body>
+</html>

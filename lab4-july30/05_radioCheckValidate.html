@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form name="ourForm" action="victory.html" onsubmit="return validateF();" method="post">
+    <h1>Add your feedback : </h1>
+    <textarea name="feedback" id="feedback"></textarea>
+    <br>
+
+    <h2>Rate the app : </h2><br>
+    <div>
+      1 <input type="radio" name="rate" id="rad1">
+      2 <input type="radio" name="rate" id="rad2">
+      3 <input type="radio" name="rate" id="rad3">
+    </div>
+    <br>
+
+    What do you like about the app ? 
+    <div>
+      1 <input type="checkbox" name="like" id="UI">
+      2 <input type="checkbox" name="like" id="Speed">
+      3 <input type="checkbox" name="like" id="Content">
+    </div>
+
+    <input type="submit" value="SUBMIT" onclick="validateF()">
+  </form>
+
+  <script>
+    function validateF(){
+      let radios = document.getElementsByName("rate");
+      let chkBox = document.getElementsByName("like");
+
+      if(!radios[0].checked && !radios[1].checked && !radios[2].checked){
+        alert("please select one radio option");
+        return false;
+      }
+
+      if(!chkBox[0].checked && !chkBox[1].checked && !chkBox[2].checked){
+        alert("please select one checkbox");
+        return false;
+      }
+    }
+  </script>
+</body>
+</html>

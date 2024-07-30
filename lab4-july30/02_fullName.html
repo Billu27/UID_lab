@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>get your Full name</title>
+</head>
+<body>
+  <label for="Fname">First Name : </label>
+  <input type="text" name="Fname">
+
+  <label for="Lname">Last Name : </label>
+  <input type="text" name="Lname">
+
+  <button onclick="fullName()">Get Name !!</button>
+
+  <h1 id="Full"></h1>
+
+  <script>
+    function fullName(){
+      let Fname = document.getElementsByName("Fname");
+      let Lname = document.getElementsByName("Lname");
+      let result = document.getElementById("Full");
+      let name= Fname[0].value+" "+Lname[0].value
+      result.textContent=`Full Name : ${name.toUpperCase()}`;
+      result.style.color = "red";
+      
+    }
+  </script>
+</body>
+</html>

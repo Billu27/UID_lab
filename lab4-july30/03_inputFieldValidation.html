@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empty input field validation</title>
+</head>
+<body>
+  <!-- see -->
+  <label for="Fname">First Name : </label>
+  <input type="text" id="Fname">
+  <span id="Ferror"></span>
+  <br/><br/>
+
+  <label for="Lname">Last Name : </label>
+  <input type="text" id="Lname">
+  <span id="Lerror"></span>
+<br/>
+  <button onclick="showError()">VALIDATE</button>
+
+
+  <script>
+    function showError(){
+      let Fname = document.getElementById("Fname").value;
+      let Lname = document.getElementById("Lname").value;
+
+      if(Fname.trim().length<=0){
+        let Fspan=document.getElementById("Ferror");
+        Fspan.textContent="Please enter First Name";
+        Fspan.style.color = "red";
+      } 
+      else if (Lname.trim().length<=0){
+        let Lspan=document.getElementById("Lerror");
+        Lspan.textContent="Please enter Lirst Name";
+        Lspan.style.color = "red";
+      }
+    }
+  </script>
+</body>
+</html>
