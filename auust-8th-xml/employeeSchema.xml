@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<employee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="employee.xsd">
+  <firstname>vimal</firstname>
+  <lastname>jaiswal</lastname>
+  <email>vimal@botatpoint.com</email>
+  <number>785789375</number>
+</employee>
